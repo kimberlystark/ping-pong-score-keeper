@@ -1,0 +1,56 @@
+.container {
+    border: 1px gray solid;
+    width: 400px;
+    /* always centers the container */
+    margin: 0 auto;
+}
+
+h1 {
+    border-bottom: 1px gray solid;
+    padding: 10px;
+    margin-top: 0;
+}
+
+h2 {
+    border-bottom: 1px gray solid;
+    margin: 0;
+    padding: 10px;
+}
+
+h1, p, h2 {
+    text-align: center;
+}
+
+.play_to_input {
+    text-align: center;
+    
+}
+
+img {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.buttons {
+    display: flex;
+}
+
+button {
+    flex: 1 1 0;
+    color: white;
+    padding: 10px 0px;
+    margin: 5px 0px 0px 0px;
+    font-size: 16px;
+}
+
+#btn1 {
+    background-color: teal;
+}
+
+#btn2 {
+    background-color: blueviolet;
+}
+
+#btn3 {
+    background-color: palevioletred;
+}
